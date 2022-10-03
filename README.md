@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="src\logo.png" width="200" alt="Python">
+    <img src="src\logo.svg" width="200" alt="Python">
   </a>
 </p>
 

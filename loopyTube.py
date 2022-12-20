@@ -23,12 +23,13 @@ def AcessGoogle(driver):
 def GoToSearch(driver):
     inputButon = driver.find_element(
         By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")
-    inputButon.send_keys("Daniel Paiva Descomplica" + Keys.ENTER)
+    inputButon.send_keys(
+        "Pitch Descomplica Daniel Paiva Segurança Informação 2022" + Keys.ENTER)
 
     time.sleep(3)
 
     inputClick = driver.find_element(
-        By.XPATH, "/html/body/div[7]/div/div[11]/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div/video-voyager/div/div/a/div/div[2]/div[1]/div/span")
+        By.XPATH, "/html/body/div[7]/div/div[11]/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/div[2]/div[2]/div/video-voyager/div/div/a/div/div[2]/div[1]/div/span")
     inputClick.click()
 
 
@@ -39,7 +40,7 @@ while (True):
     time.sleep(3)
     AcessGoogle(driver)
     GoToSearch(driver)
-    time.sleep(31)
+    time.sleep(27)
     driver.close()
     time.sleep(3)
     clear()
